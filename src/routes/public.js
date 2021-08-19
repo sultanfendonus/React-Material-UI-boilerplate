@@ -3,13 +3,18 @@ import HomeLayout from "../layout/home/HomeLayout";
 import Home from "../pages/home/Home";
 
 export const publicRoutes = {
-  path: "/",
+  path: "/pages",
   component: HomeLayout,
   routes: [
     {
-      path: "/others",
+      path: "/pages/home",
       exact: true,
       component: React.lazy(() => import("pages/home/Home")),
+    },
+    {
+      path: "/pages/others",
+      exact: true,
+      component: React.lazy(() => import("pages/home/OtherPage")),
     },
   ],
 };
