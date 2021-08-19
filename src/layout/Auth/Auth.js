@@ -11,7 +11,7 @@ const AuthLayout = (props) => {
   const token = window.localStorage.getItem("token");
 
   if (token) {
-    props.history.push("/user/dashboard");
+    props.history.push("/admin/dashboard");
   }
 
   return (
