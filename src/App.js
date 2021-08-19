@@ -5,6 +5,7 @@ import { createBrowserHistory } from "history";
 import { BrowserRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 import routes from "./routes";
+import ScrollReset from "./components/ScrollReset/ScrollReset";
 
 const history = createBrowserHistory();
 
@@ -13,7 +14,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {/*Rest of the code.*/}
-      <BrowserRouter history={history}>{renderRoutes(routes)}</BrowserRouter>
+      <BrowserRouter history={history}>
+        <ScrollReset />
+        {renderRoutes(routes)}
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
