@@ -11,24 +11,7 @@ import Box from "@material-ui/core/Box";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-
-function Copyright(props) {
-  return (
-    <Typography
-      variant="body2"
-      color="text.secondary"
-      align="center"
-      {...props}
-    >
-      {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+import StyledLink from "../../components/StyledLink/StyledLink";
 
 export default function Login() {
   const handleSubmit = (event) => {
@@ -93,19 +76,20 @@ export default function Login() {
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link href="#" variant="body2">
-                Forgot password?
-              </Link>
+              <StyledLink to="#">
+                <Typography variant="body2">Forgot password?</Typography>
+              </StyledLink>
             </Grid>
             <Grid item>
-              <Link href="/auth/register" variant="body2">
-                {"Don't have an account? Sign Up"}
-              </Link>
+              <StyledLink to="/auth/register">
+                <Typography variant="body2">
+                  Don't have an account? Sign Up
+                </Typography>
+              </StyledLink>
             </Grid>
           </Grid>
         </Box>
       </Box>
-      <Copyright sx={{ mt: 8, mb: 4 }} />
     </Container>
   );
 }

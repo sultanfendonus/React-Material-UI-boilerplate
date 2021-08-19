@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5625b1a-4eeb-4a50-b7f9-1a851320a7af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layout/Auth/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Auth/components/Topbar/Topbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Auth/components/Topbar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Auth/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/auth/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/auth/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StyledLink/StyledLink.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/public.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Auth/components/Topbar/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Auth/components/Topbar/Topbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Auth/components/Topbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1629358401" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1629358400" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1wtKUI2uWTJ3l6lqKEXF1BvnHmo" />
   <component name="ProjectLevelVcsManager">
@@ -76,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629272459515</updated>
       <workItem from="1629272462495" duration="85000" />
-      <workItem from="1629272607801" duration="14502000" />
+      <workItem from="1629272607801" duration="16362000" />
     </task>
     <servers />
   </component>

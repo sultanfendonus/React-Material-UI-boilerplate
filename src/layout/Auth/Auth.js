@@ -3,20 +3,16 @@ import { renderRoutes } from "react-router-config";
 import PropTypes from "prop-types";
 import { LinearProgress } from "@material-ui/core";
 
-import { Topbar } from "./components";
-// import useRouter from "../../utils/useRouter";
+import Topbar from "./components/Topbar/Topbar";
 
 const AuthLayout = (props) => {
   const { route } = props;
-  // const { history } = useRouter();
 
-  // const classes = useStyles();
+  const token = window.localStorage.getItem("token");
 
-  // const token = window.localStorage.getItem("token");
-  //
-  // if (token) {
-  //   history.push("/user/dashboard");
-  // }
+  if (token) {
+    props.history.push("/user/dashboard");
+  }
 
   return (
     <Fragment>
